@@ -1,0 +1,25 @@
+.btn-primary {
+  background-color: blue;
+  color: white;
+  padding: 10px 20px;
+}
+.btn-danger {
+  background-color: red;
+  color: white;
+  padding: 10px 20px;
+}
+.btn-success {
+  background-color: green;
+  color: white;
+  padding: 10px 20px;
+}
+
+.btn-danger:hover {
+    background-color: darkred;
+}
+.btn-primary:hover {
+    background-color: darkblue;
+}
+.btn-success:hover {
+    background-color: darkgreen;
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge 01</title>
+</head>
+<body>
+    <script>
+        //Function printForecast
+       function printForecast (arr) {
+            let forecast = '';
+
+            for (let i = 0; i < arr.length; i++) {
+                forecast += ` '${arr[i]}' độ C in ${i+1} days`;
+                console.log(forecast + '...')
+                
+            }
+        }
+        //Data 1
+        console.log("---Test Data 1----")
+        printForecast([17,21,23]);
+
+        console.log("---Test Data 2----")
+        //Data 2
+        printForecast([12, 5, -5, 0, 4]);
+    </script>
+</body>
+</html>
